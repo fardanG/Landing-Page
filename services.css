@@ -1,0 +1,163 @@
+.bagservices {
+  padding-top: 150px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 25px 0;
+}
+
+.card-body h4 {
+  color: #1e2d78;
+}
+
+.card-body h2 {
+  color: #1e2d78;
+}
+
+.card-body p {
+  font-weight: 400;
+  color: #8a8a8a;
+  font-size: 14px;
+  max-width: 394px;
+}
+
+.card-body div a {
+  text-decoration: none;
+  color: #1e2d78;
+  font-weight: 600;
+  font-size: 12.5px;
+  letter-spacing: 2px;
+}
+
+.listlogo {
+  list-style-image: url(img/pages/plus.png);
+}
+
+.dashed-line {
+  border: 1px dashed red;
+  width: 152px;
+}
+
+.monday {
+  width: 364px;
+  display: flex;
+  padding-bottom: 9px;
+}
+
+.monday .col p {
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #1e2d78;
+  border-color: #1e2d78;
+}
+
+.btn-primary:hover {
+  background-color: #1b2768;
+  border-color: #1b2768;
+}
+
+.btn-primary {
+  background-color: #1e2d78;
+  border-color: #1e2d78;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 30px;
+  padding-top: 130px;
+}
+
+.services {
+  display: flex;
+}
+
+.box1 {
+  width: 100%;
+  padding-left: 10%;
+}
+
+.buton {
+  width: 100%;
+  padding: 24px 111px;
+  border-radius: 0;
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+  .bagservices {
+    padding-top: 100px;
+  }
+
+  .dashed-line {
+    border: 1px dashed red;
+    width: 242px;
+  }
+
+  .monday {
+    width: 510px;
+    display: flex;
+  }
+
+  .monday .col p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .bagservices {
+    padding-top: 40px;
+  }
+
+  .dashed-line {
+    border: 1px dashed red;
+    width: 89px;
+  }
+
+  .monday {
+    width: 284px;
+    display: flex;
+  }
+
+  .monday .col p {
+    font-size: 12px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    padding-top: 130px;
+  }
+
+  .box1 {
+    width: 100%;
+    padding-left: 10%;
+  }
+
+  .services img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+
+  .buton {
+    width: 100%;
+    padding: 24px 111px;
+    border-radius: 0;
+    font-size: 11px;
+  }
+}

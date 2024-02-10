@@ -1,0 +1,58 @@
+/* Awalan Navbar */
+
+.navbar-brand {
+  color: #f4572e;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: #dd3333;
+}
+
+.navbar-brand a {
+  color: #dd3333;
+}
+
+.navbar-brand span {
+  color: #2e3192;
+}
+
+.navbar-collapse ul li a {
+  letter-spacing: 2.6px;
+  color: #2e3192;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.navbar-collapse ul li a:hover {
+  letter-spacing: 2.6px;
+  color: #282b7d;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
+.navbar-nav li.nav-item {
+  position: relative;
+}
+
+.nav-item .nav-link {
+  color: #1e2d78;
+  font-weight: 450;
+  border-color: #dd3333;
+  padding: 11px 9.313px 13px;
+}
+
+.navbar-nav li.nav-item:hover::before {
+  content: "";
+  display: block;
+  display: flex;
+  justify-content: center;
+  height: 3px;
+  background-color: #dd3333; /* Warna garis atas saat dihover */
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Lebar garis sesuai dengan panjang teks */
+}

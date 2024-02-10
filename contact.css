@@ -1,0 +1,161 @@
+.contactsec {
+  display: flex;
+}
+
+.contactsec .satu img {
+  width: 100%;
+}
+
+.contactsec .dua {
+  background-color: #eef7ff;
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.contactsec .dua h3 {
+  color: #1e2d78;
+  font-weight: 600;
+}
+
+.sub {
+  padding-left: 16px;
+}
+
+.formsec .form-control {
+  max-width: 90%;
+  background-color: #eef7ff;
+  border-radius: 4px;
+  border: 2px solid #dce6f5;
+  margin-bottom: 20px;
+  padding: 10px 22px;
+  margin-right: 10px;
+}
+
+.contactsec .form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.formsec .row .col {
+}
+
+.form-control1 {
+  width: 97%;
+  padding: 0.375rem 0.75rem;
+  font-weight: 400;
+  background-color: #eef7ff;
+  border: 2px solid #dce6f5;
+  border-radius: 0.25rem;
+}
+
+.form-control1:focus {
+  box-shadow: none;
+  outline: 0;
+}
+
+.btn-primary1 {
+  color: #fff;
+  background-color: #1e2d78;
+  border-color: #1e2d78;
+  font-weight: 400;
+  letter-spacing: 2px;
+  max-width: 34%;
+  padding: 15px 50px;
+  margin-left: 13px;
+  margin-top: 30px;
+  border-radius: 1.3px;
+}
+
+.btn-primary1:hover {
+  color: #fff;
+  background-color: #192665;
+  border-color: #1e2d78;
+}
+
+.btn-primary1:checked {
+  color: #fff;
+  background-color: #192665;
+  border-color: #1e2d78;
+  font-weight: 400;
+  letter-spacing: 2px;
+  max-width: 34%;
+  padding: 15px 50px;
+}
+
+@media (max-width: 640px) {
+  .contactsec {
+    display: block;
+  }
+
+  .sub {
+    padding-top: 60px;
+  }
+
+  .contactsec .dua {
+    background-color: #eef7ff;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .formsec .form-control {
+    max-width: 100%;
+    background-color: #eef7ff;
+    border-radius: 4px;
+    border: 2px solid #dce6f5;
+    margin-bottom: 20px;
+    padding: 5px 22px;
+    font-size: 11px;
+    margin-right: 10px;
+  }
+
+  .btn-primary1 {
+    color: #fff;
+    background-color: #1e2d78;
+    border-color: #1e2d78;
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    max-width: 30%;
+    padding: 6px 1px;
+    margin-left: 13px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+  .contactsec {
+    display: block;
+  }
+  .sub {
+    padding-left: 56px;
+    padding-top: 100px;
+    padding-bottom: 24px;
+  }
+
+  .contactsec .dua {
+    background-color: #eef7ff;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 100px;
+  }
+
+  .formsec .form-control {
+    max-width: 100%;
+    background-color: #eef7ff;
+    border-radius: 4px;
+    border: 2px solid #dce6f5;
+    margin-bottom: 20px;
+    padding: 5px 22px;
+    font-size: 11px;
+    margin-right: 16px;
+  }
+}

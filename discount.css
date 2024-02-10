@@ -1,0 +1,85 @@
+.bagdiscount {
+  height: 213px;
+  display: flex;
+  align-items: center;
+}
+
+.bagdiscount h2 {
+  color: #fff;
+  margin-left: 100px;
+}
+
+.bagdiscount h2 span {
+  color: #dd3333;
+}
+
+.bagdiscount p {
+  color: #fff;
+  margin-left: 100px;
+}
+
+.bagdiscount button {
+  padding: 16px 49px;
+  margin-left: 400px;
+}
+
+@media (max-width: 640px) {
+  .bagdiscount {
+    height: 100px;
+    display: block;
+    align-items: center;
+    padding-top: 6px;
+  }
+
+  .bagdiscount h2 {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 1px;
+    width: 310px;
+  }
+
+  .bagdiscount h2 span {
+    color: #dd3333;
+  }
+
+  .bagdiscount p {
+    font-size: 8px;
+    color: #fff;
+    margin-left: 1px;
+  }
+
+  .bagdiscount button {
+    padding: 5px 20px;
+    margin-left: 1px;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+  .bagdiscount {
+    height: 213px;
+    display: flex;
+    align-items: center;
+  }
+
+  .bagdiscount h2 {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+
+  .bagdiscount h2 span {
+    color: #dd3333;
+  }
+
+  .bagdiscount p {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+
+  .bagdiscount button {
+    padding: 16px 39px;
+    margin-left: 60px;
+  }
+}

@@ -1,0 +1,186 @@
+/* Awalan Slider */
+
+.carousel-caption {
+  top: 88px;
+  left: 250px;
+}
+
+.carousel-control-next-icon {
+  background-image: url(img/pp.svg);
+  background-color: #fff;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(img/kiri.svg);
+  background-color: #fff;
+}
+
+.carousel-caption h3 {
+  font-size: 13px;
+  letter-spacing: 0.7px;
+  background-color: #f4572e;
+  width: 168px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.carousel-caption .p1 {
+  font-size: 55px;
+  height: 70px;
+  width: 519px;
+  display: flex;
+  align-items: center;
+  padding-left: 7px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 9px;
+  color: #2e3192;
+  font-weight: 600;
+}
+
+.carousel-caption .p2 {
+  font-size: 55px;
+  height: 70px;
+  width: 455px;
+  display: flex;
+  align-items: center;
+  padding-left: 7px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 9px;
+  color: #2e3192;
+  font-weight: 600;
+}
+
+.carousel-caption button {
+  padding: 16px 49px;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  margin-top: 16px;
+  margin-right: 16px;
+}
+
+@media (max-width: 640px) {
+  .carousel-caption {
+    top: 10px;
+    left: 55px;
+  }
+
+  .carousel-control-next-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .carousel-control-prev-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 6px;
+    letter-spacing: 0.3px;
+    width: 65px;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3.5px;
+    display: flex;
+    margin-bottom: 2px;
+  }
+
+  .carousel-caption .p1 {
+    font-size: 18px;
+    height: 20px;
+    width: 175px;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    border-radius: 3.5px;
+    background-color: #fff;
+    margin-bottom: 3px;
+    color: #2e3192;
+    font-weight: 600;
+  }
+
+  .carousel-caption .p2 {
+    font-size: 18px;
+    height: 20px;
+    width: 155px;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    border-radius: 3.5px;
+    background-color: #fff;
+    margin-bottom: 3px;
+    color: #2e3192;
+    font-weight: 600;
+  }
+
+  .carousel-caption button {
+    padding: 4px 4px;
+    font-size: 6px;
+    letter-spacing: 1.3px;
+    margin-top: 1px;
+    margin-right: 5px;
+    border-radius: 3.5px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+  .carousel-caption {
+    top: 20px;
+    left: 65px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 19px;
+    letter-spacing: 0.3px;
+    width: 190px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 6px;
+  }
+
+  .carousel-caption .p1 {
+    font-size: 35px;
+    height: 40px;
+    width: 335px;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    border-radius: 3.5px;
+    background-color: #fff;
+    margin-bottom: 7px;
+    color: #2e3192;
+    font-weight: 600;
+  }
+
+  .carousel-caption .p2 {
+    font-size: 35px;
+    height: 40px;
+    width: 290px;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    border-radius: 3.5px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    color: #2e3192;
+    font-weight: 600;
+  }
+
+  .carousel-caption button {
+    padding: 7px 9px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-top: 7px;
+    margin-right: 5px;
+    border-radius: 3.5px;
+  }
+}

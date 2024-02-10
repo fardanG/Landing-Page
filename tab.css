@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+}
+
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  border: 0px;
+  background-color: #fff2f2;
+  padding-top: 120px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border: 0px;
+  color: #1e2d78;
+  font-weight: 600;
+  background-color: #fff2f2;
+}
+
+.nav-itema .nav-link {
+  color: #1e2d78;
+  font-weight: 450;
+  border-color: #dd3333;
+  padding: 11px 69.313px 13px;
+}
+
+.nav-tabs .nav-link {
+  border: 0px;
+  /* border-bottom: 1px solid #DD3333; */
+}
+
+.nav-tabs .nav-link:hover {
+  border-bottom: 1px solid #dd3333;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 1px solid #dd3333;
+}
+
+/* .tab-content {
+  display: flex;
+  justify-content: center;
+  background-color: #fff2f2;
+  padding-top: 66px;
+  height: 556px;
+} */
+
+.tab-content {
+  background-color: #fff2f2;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 130px;
+  padding-top: 70px;
+}
+
+.tab-pane h2 {
+  color: #1e2d78;
+  width: 520px;
+}
+
+.tab-pane .p1 {
+  max-width: 502px;
+}
+
+.tab-pane .p2 {
+  max-width: 562px;
+}
+
+@media (max-width: 640px) {
+  .nav-tabs {
+    padding-top: 10px;
+  }
+
+  .tab-content {
+    overflow: hidden;
+    padding-bottom: 0px;
+  }
+
+  .tab-pane .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .tab-pane h2 {
+    color: #1e2d78;
+    max-width: 65%;
+    font-size: 20px;
+  }
+
+  .tab-pane .p1 {
+    max-width: 280px;
+    font-size: 12px;
+  }
+
+  .tab-pane .p2 {
+    max-width: 280px;
+    font-size: 12px;
+  }
+
+  .tab-pane img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+  .nav-tabs {
+    padding-top: 10px;
+  }
+
+  .tab-content {
+    overflow: hidden;
+  }
+
+  .nav-item .nav-link {
+    padding: 11px 15.313px 13px 15.688px;
+  }
+
+  .tab-pane .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    padding-left: 20px;
+  }
+
+  .tab-pane h2 {
+    color: #1e2d78;
+    max-width: 400px;
+    font-size: 20px;
+  }
+
+  .tab-pane .p1 {
+    max-width: 400px;
+  }
+
+  .tab-pane .p2 {
+    max-width: 400px;
+  }
+
+  .tab-pane img {
+    width: 100%;
+  }
+}
